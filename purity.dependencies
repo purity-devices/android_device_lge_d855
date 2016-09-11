@@ -11,12 +11,6 @@
   },
   {
     "remote": "CyanogenMod",
-    "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common",
-    "revision": "cm-13.0"
-  },
-  {
-    "remote": "CyanogenMod",
     "repository": "android_hardware_sony_thermanager",
     "target_path": "hardware/sony/thermanager",
     "revision": "cm-13.0"
