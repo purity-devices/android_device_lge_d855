@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "android_device_lge_g3-common",
+    "target_path": "device/lge/g3-common",
+    "revision": "android-n"
+  },
+  {
+    "repository": "android_kernel_lge_g3",
+    "target_path": "kernel/lge/g3",
+    "revision": "android-n"
+  },
+  {
+    "remote": "github",
+    "repository": "AndroidRul3z/android_vendor_lge_d855",
+    "target_path": "vendor/lge",
+    "revision": "android-n"
+  }
+]
