@@ -18,7 +18,10 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/purity/common.mk)
+$(call inherit-product, vendor/purity/config/common_full_phone.mk)
+
+# Enhanced NFC
+$(call inherit-product, vendor/purity/config/nfc_enhanced.mk)
 
 # Inherit from d855 device
 $(call inherit-product, device/lge/d855/device.mk)
